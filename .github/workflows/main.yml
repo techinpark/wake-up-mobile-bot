@@ -1,0 +1,16 @@
+name: wakeup glitch
+
+on:
+
+  schedule:
+    # 서버에 요청
+    - cron: "*/5 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl
+        uses: wei/curl@master
+        with:
+         args: https://techinpark-kidsnote-mobile-bot.glitch.me/probot
