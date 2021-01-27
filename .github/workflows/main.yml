@@ -13,4 +13,4 @@ jobs:
       - name: curl
         uses: wei/curl@master
         with:
-         args: https://techinpark-kidsnote-mobile-bot.glitch.me/probot
+         args: https://dano-mobile-bot.glitch.me/probot
